@@ -25,10 +25,10 @@ class vehiculo():
 print("Ingrese datos del vehículo: Marca y modelo.")
 datos=input()
 dato=datos.split(",")
-mar=dato[0]
+marc=dato[0]
 model=int(dato[1])
 
-Carro=vehiculo(mar,model)
+Carro=vehiculo(marc,model)
 Carro.conexion()
 
 
